@@ -175,4 +175,8 @@ def create_dependency(request):
         serializer.save()
         return Response(serializer.data)
 
+<<<<<<< HEAD
     return Response(serializer.errors)
+=======
+    return Response(serializer.errors)
+>>>>>>> 730df28c0758fa8f53f233b99809d7d0fb80645f
