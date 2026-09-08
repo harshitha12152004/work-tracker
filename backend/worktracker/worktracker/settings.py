@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ikp7msn)dw2unh8aus8t1mvje680o!gjy5!6#2i2yk*&#)t&*e'
+SECRET_KEY = 'o#60^)8x$n#ap**f+cp(iu*0!8ao073%$-v&7_q5ln7#mv0@tu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
 ]
-CORS_ALLOW_ALL_ORIGIN = True
+CORS_ALLOW_ALL_ORIGINS = True 
 
 ROOT_URLCONF = 'worktracker.urls'
 
